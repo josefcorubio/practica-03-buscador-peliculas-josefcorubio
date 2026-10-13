@@ -2,7 +2,7 @@
 
 ## Enunciado
 
-Se dispone de una lista de descripciones de películas que se proporciona para la práctica ([`recursos/peliculas.json`](./recursos/peliculas.json)). Deberás implementar una aplicación que almacena los correspondientes embeddings en una base de datos vectorial en memoria.
+Se dispone de una lista de descripciones de películas que se proporciona para la práctica ([`recursos/peliculas.json`](./src/main/resources/peliculas.json)). Deberás implementar una aplicación que almacena los correspondientes embeddings en una base de datos vectorial en memoria.
 
 Partiendo de lo anterior, implementarás un endpoint que reciba como parámetro una preferencia de usuario, por ejemplo "películas sobre viajes espaciales". Como respuesta, se entregará al usuario un JSON con una lista de películas que se ajusten a los criterios de búsqueda. Entre las propiedades que se incluirán en esta lista están: título de la película, año de estreno y grado de adecuación a los criterios (en porcentaje).
 
